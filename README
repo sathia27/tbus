@@ -1,0 +1,11 @@
+TBus is script used to see bus routes inside cities.
+
+Now this script is available for cities of bangalore and chennai.
+
+Installation
+
+sudo apt-get install ruby libxml2 libxml2-dev libxslt-dev ruby-dev
+
+sudo apt-get install rubygems
+
+sudo gem install nokogiri
