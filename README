@@ -2,10 +2,37 @@ TBus is script used to see bus routes inside cities.
 
 Now this script is available for cities of bangalore and chennai.
 
-Installation
+This is not an offline application. It uses internet.
+
+Nokogiri, which is HTML parser library of ruby, scraps data from wiki pages below
+http://en.wikipedia.org/wiki/List_of_MTC_Chennai_bus_routes for chennai
+http://en.wikipedia.org/wiki/List_of_Metropolitan_bus_routes_in_Bangalore for bangalore.
+
+Simple Installation
 
 sudo apt-get install ruby libxml2 libxml2-dev libxslt-dev ruby-dev
 
 sudo apt-get install rubygems
 
 sudo gem install nokogiri
+
+and then you can run ruby file.
+See the output below
+
+$ ruby tbus.rb
+Note: TBUS script. "x" in result denotes high frequency bus...
+Enter the city. enter 
+ '1' for chennai and 
+ '2' for bangalore 
+choice:1
+Searching chennai...
+Source: ennore
+Destination: egmore
+28B
+Ennore
+Egmore
+x
+
+=====================================
+
+For any query or suggestion mail me at sathia2704@gmail.com
